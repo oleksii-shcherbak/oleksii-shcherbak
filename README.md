@@ -4,9 +4,4 @@
 
 ###
 
-<div align="center">
-  <img height="500" src="https://media.giphy.com/media/cYU6YcPE5YlJxh6otp/giphy.gif"  />
-</div>
-
-###
 
