@@ -27,6 +27,7 @@
   <a href="https://pandas.pydata.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="40" height="40" alt="Pandas" title="Pandas"/></a>
   <a href="https://matplotlib.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="40" height="40" alt="Matplotlib" title="Matplotlib"/></a>
   <a href="https://seaborn.pydata.org/" target="_blank"><img src="https://raw.githubusercontent.com/oleksii-shcherbak/oleksii-shcherbak/main/assets/icons/seaborn.png" width="40" height="40" alt="Seaborn" title="Seaborn"/></a>
+  <a href="https://networkx.org/" target="_blank"><img src="https://raw.githubusercontent.com/oleksii-shcherbak/oleksii-shcherbak/main/assets/icons/networkx.png" width="40" height="40" alt="NetworkX" title="NetworkX"/></a>
   <a href="https://scikit-learn.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="40" height="40" alt="Scikit-learn" title="Scikit-learn"/></a>
   <a href="https://jupyter.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="40" height="40" alt="Jupyter" title="Jupyter"/></a>
   <a href="https://scipy.org/" target="_blank"><img src="https://raw.githubusercontent.com/oleksii-shcherbak/oleksii-shcherbak/main/assets/icons/scipy.png" width="40" height="40" alt="SciPy" title="SciPy"/></a>
