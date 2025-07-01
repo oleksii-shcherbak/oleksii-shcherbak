@@ -1,9 +1,11 @@
 <h1>ℹ️About Me</h1>
 
 <p>
-  Hi, I'm <strong>Oleksii Shcherbak</strong> — a Data Science Master's student at Woolf GoIT Neoversity and a professional handball player.<br>
-  I specialize in <strong>data analysis</strong>, <strong>statistical modeling</strong>, and working with <strong>real-world datasets</strong> using Python.<br>
-  Below you’ll find a quick overview of the tools and technologies I work with, as well as how to connect with me or explore my work across other platforms.
+  Hi, I'm Oleksii Shcherbak — a Software Engineering Master's student at Woolf GoIT Neoversity and a professional handball player.
+
+I specialize in **Python development**, **software architecture**, and **data-driven engineering**. My background spans from building CLI tools and backend systems to working with real-world datasets for modeling and automation tasks.
+
+Below is an overview of the technologies I work with, tools I use, and how you can connect with me or explore my work.
 </p>
 
 <hr/>
