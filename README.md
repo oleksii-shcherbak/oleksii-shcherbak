@@ -50,15 +50,13 @@ Below is an overview of the technologies I work with, tools I use, and how you c
 <p align="left">
   <a href="https://git-scm.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git" title="Git"/></a>
   <a href="https://github.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GitHub" title="GitHub"/></a>
+    <a href="https://www.docker.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" width="40" height="40" alt="Docker" title="Docker"/></a>
   <a href="https://docs.github.com/en/actions" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" width="40" height="40" alt="GitHub Actions" title="GitHub Actions"/></a>
   <a href="https://www.jetbrains.com/pycharm/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" width="40" height="40" alt="PyCharm" title="PyCharm"/></a>
   <a href="https://www.jetbrains.com/datagrip/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg" width="40" height="40" alt="DataGrip" title="DataGrip"/></a>
-  <a href="https://www.jetbrains.com/webstorm/" target="_blank">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webstorm/webstorm-original.svg" width="40" height="40" alt="WebStorm" title="WebStorm"/>
-</a>
+  <a href="https://www.jetbrains.com/webstorm/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webstorm/webstorm-original.svg" width="40" height="40" alt="WebStorm" title="WebStorm"/></a>
   <a href="https://www.figma.com/" target="_blank">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" height="40" alt="Figma" title="Figma"/>
-</a>
+  <a href="https://www.figma.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" height="40" alt="Figma" title="Figma"/></a>
   <a href="https://www.postman.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="40" height="40" alt="Postman" title="Postman"/></a>
   <a href="https://colab.research.google.com/" target="_blank"><img src="https://raw.githubusercontent.com/oleksii-shcherbak/oleksii-shcherbak/main/assets/icons/googlecolab.png" width="65" height="40" style="margin-left:8px;" alt="Google Colab" title="Google Colab"/></a>
 </p>
