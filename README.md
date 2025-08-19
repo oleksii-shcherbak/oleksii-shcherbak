@@ -81,3 +81,18 @@ Below is an overview of the technologies I work with, tools I use, and how you c
 <!-- Snake contribution graph -->
 <br/>
 <img src="https://github.com/oleksii-shcherbak/oleksii-shcherbak/blob/output/github-snake-dark.svg" alt="Snake animation"/>
+
+<!-- GitHub Breakout Animation -->
+<div align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="images/breakout-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="images/breakout-light.svg"
+    />
+    <img alt="Breakout Game" src="images/breakout-light.svg" />
+  </picture>
+</div>
