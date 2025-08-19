@@ -78,9 +78,11 @@ Below is an overview of the technologies I work with, tools I use, and how you c
   <a href="mailto:oleksii_shcherbak@icloud.com" target="_blank"><img src="https://raw.githubusercontent.com/oleksii-shcherbak/oleksii-shcherbak/main/assets/icons/email.png" width="40" height="40" alt="Email" title="Email Me"/></a>
 </p>
 
+
 <!-- Snake contribution graph -->
-<br/>
+<!--<br/>
 <img src="https://github.com/oleksii-shcherbak/oleksii-shcherbak/blob/output/github-snake-dark.svg" alt="Snake animation"/>
+-->
 
 <!-- GitHub Breakout Animation -->
 <div align="center">
