@@ -1,0 +1,47 @@
+name: Generate Breakout SVG
+
+on:
+  schedule:
+    # Runs every day at 6:00 AM UTC (9:00 AM Helsinki time)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    # Allows manual triggering from GitHub Actions tab
+
+jobs:
+  generate-breakout-svg:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Generate Breakout SVG
+        uses: cyprieng/github-breakout@v1.0.0
+        with:
+          github_username: ${{ github.repository_owner }}
+          
+      - name: Create images directory
+        run: mkdir -p images
+        
+      - name: Move generated SVGs to images directory
+        run: |
+          mv output/light.svg images/breakout-light.svg
+          mv output/dark.svg images/breakout-dark.svg
+          
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+      - name: Commit and push breakout SVGs
+        run: |
+          git add images/breakout-light.svg images/breakout-dark.svg
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update breakout SVGs [automated]"
+            git push
+          fi
