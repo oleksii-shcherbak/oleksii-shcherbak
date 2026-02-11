@@ -31,6 +31,7 @@
   <a href="https://www.postgresql.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL" title="PostgreSQL"/></a>
   <a href="https://www.jetbrains.com/pycharm/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" width="40" height="40" alt="PyCharm" title="PyCharm"/></a>
   <a href="https://www.jetbrains.com/webstorm/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webstorm/webstorm-original.svg" width="40" height="40" alt="WebStorm" title="WebStorm"/></a>
+  <a href="https://www.jetbrains.com/datagrip/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg" width="40" height="40" alt="DataGrip" title="DataGrip"/></a>
 </p>
 
 <h3>🌐 Connect With Me</h3>
