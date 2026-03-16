@@ -35,19 +35,3 @@
   <a href="https://leetcode.com/u/oleksii-shcherbak/" target="_blank"><img src="https://raw.githubusercontent.com/oleksii-shcherbak/oleksii-shcherbak/main/assets/icons/leetcode.png" width="40" height="40" alt="LeetCode" title="LeetCode"/></a>
   <a href="mailto:oleksii_shcherbak@icloud.com" target="_blank"><img src="https://raw.githubusercontent.com/oleksii-shcherbak/oleksii-shcherbak/main/assets/icons/email.png" width="40" height="40" alt="Email" title="Email Me"/></a>
 </p>
-
-<br/>
-
-<div align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/oleksii-shcherbak/oleksii-shcherbak/github-breakout/images/breakout-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/oleksii-shcherbak/oleksii-shcherbak/github-breakout/images/breakout-light.svg"
-    />
-    <img alt="Breakout Game" src="https://raw.githubusercontent.com/oleksii-shcherbak/oleksii-shcherbak/github-breakout/images/breakout-light.svg" />
-  </picture>
-</div>
