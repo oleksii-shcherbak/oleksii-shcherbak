@@ -22,6 +22,7 @@ jobs:
         uses: cyprieng/github-breakout@v1.0.0
         with:
           github_username: ${{ github.repository_owner }}
+          enable_ghost_bricks: false
           
       - name: Create images directory
         run: mkdir -p images
