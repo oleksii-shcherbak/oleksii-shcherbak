@@ -6,7 +6,7 @@
 
 <hr/>
 
-<h3>🔧 Currently Building</h3>
+<h3>Currently Building</h3>
 <p align="left">
   <a href="https://www.python.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python" title="Python"/></a>
   <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="40" height="40" alt="FastAPI" title="FastAPI"/></a>
@@ -15,7 +15,7 @@
   <a href="https://www.docker.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" alt="Docker" title="Docker"/></a>
 </p>
 
-<h3>💻 Technologies & Tools</h3>
+<h3>Technologies & Tools</h3>
 <p align="left">
   <a href="https://www.sqlalchemy.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" width="40" height="40" alt="SQLAlchemy" title="SQLAlchemy"/></a>
   <a href="https://docs.pydantic.dev/" target="_blank"><img src="https://cdn.simpleicons.org/pydantic" width="40" height="40" alt="Pydantic" title="Pydantic"/></a>
@@ -28,7 +28,7 @@
   <a href="https://www.jetbrains.com/datagrip/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg" width="40" height="40" alt="DataGrip" title="DataGrip"/></a>
 </p>
 
-<h3>🌐 Connect With Me</h3>
+<h3>Connect With Me</h3>
 <p align="left">
   <a href="https://www.linkedin.com/in/o-shcherbak/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40" alt="LinkedIn" title="LinkedIn"/></a>
   <a href="https://www.kaggle.com/oshcherbak" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg" width="40" height="40" alt="Kaggle" title="Kaggle"/></a>
