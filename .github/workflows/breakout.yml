@@ -17,17 +17,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate SVG
-        uses: cyprieng/github-breakout@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          github_username: ${{ github.repository_owner }}
-          enable_ghost_bricks: false
+          node-version: "20"
 
-      - name: Move generated SVGs to temp
+      - name: Clone github-breakout and install dependencies
         run: |
-          mkdir -p /tmp/breakout-images
-          mv output/light.svg /tmp/breakout-images/breakout-light.svg
-          mv output/dark.svg /tmp/breakout-images/breakout-dark.svg
+          git clone --depth 1 --branch v1.2.4 https://github.com/cyprieng/github-breakout.git /tmp/github-breakout
+          cd /tmp/github-breakout && npm ci
+
+      - name: Generate SVGs (no ghost bricks)
+        run: |
+          node /tmp/github-breakout/dist/cli.js \
+            --username ${{ github.repository_owner }} \
+            --token ${{ secrets.GITHUB_TOKEN }} \
+            --light \
+            --dark \
+            --no-ghost-bricks \
+            --output-path /tmp/breakout-output/
 
       - name: Configure git
         run: |
@@ -39,7 +47,8 @@ jobs:
           git checkout --orphan github-breakout
           git rm -rf .
           mkdir images
-          mv /tmp/breakout-images/* images/
+          mv /tmp/breakout-output/light.svg images/breakout-light.svg
+          mv /tmp/breakout-output/dark.svg images/breakout-dark.svg
           git add images
           git commit -m "chore: update GitHub breakout SVGs" || echo "No changes to commit"
           git push --force origin github-breakout
