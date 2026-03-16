@@ -13,30 +13,46 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
-      - name: Generate Breakout SVG
-        uses: cyprieng/github-breakout@v1.2.4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          github_username: ${{ github.repository_owner }}
-          enable_ghost_bricks: false
-          
+          node-version: "20"
+
+      - name: Clone and install github-breakout
+        run: |
+          git clone --depth 1 --branch v1.2.4 https://github.com/cyprieng/github-breakout.git /tmp/github-breakout
+          cd /tmp/github-breakout
+          npm ci
+
+      - name: Generate Breakout SVGs (no ghost bricks)
+        run: |
+          mkdir -p output
+          node /tmp/github-breakout/dist/cli.js \
+            --username ${{ github.repository_owner }} \
+            --token ${{ secrets.GITHUB_TOKEN }} \
+            --light \
+            --dark \
+            --no-ghost-bricks \
+            --output-path output/
+
       - name: Create images directory
         run: mkdir -p images
-        
+
       - name: Move generated SVGs to images directory
         run: |
           mv output/light.svg images/breakout-light.svg
           mv output/dark.svg images/breakout-dark.svg
-          
+
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
+
       - name: Commit and push breakout SVGs
         run: |
           git add images/breakout-light.svg images/breakout-dark.svg
