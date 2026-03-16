@@ -5,60 +5,41 @@ on:
     # Runs every day at 6:00 AM UTC (9:00 AM Helsinki time)
     - cron: "0 6 * * *"
   workflow_dispatch:
-    # Allows manual triggering from GitHub Actions tab
 
 jobs:
-  generate-breakout-svg:
+  generate-svg:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Generate SVG
+        uses: cyprieng/github-breakout@v1
         with:
-          node-version: "20"
+          github_username: ${{ github.repository_owner }}
+          enable_ghost_bricks: false
 
-      - name: Clone and install github-breakout
+      - name: Move generated SVGs to temp
         run: |
-          git clone --depth 1 --branch v1.2.4 https://github.com/cyprieng/github-breakout.git /tmp/github-breakout
-          cd /tmp/github-breakout
-          npm ci
+          mkdir -p /tmp/breakout-images
+          mv output/light.svg /tmp/breakout-images/breakout-light.svg
+          mv output/dark.svg /tmp/breakout-images/breakout-dark.svg
 
-      - name: Generate Breakout SVGs (no ghost bricks)
-        run: |
-          mkdir -p output
-          node /tmp/github-breakout/dist/cli.js \
-            --username ${{ github.repository_owner }} \
-            --token ${{ secrets.GITHUB_TOKEN }} \
-            --light \
-            --dark \
-            --no-ghost-bricks \
-            --output-path output/
-
-      - name: Create images directory
-        run: mkdir -p images
-
-      - name: Move generated SVGs to images directory
-        run: |
-          mv output/light.svg images/breakout-light.svg
-          mv output/dark.svg images/breakout-dark.svg
-
-      - name: Configure Git
+      - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and push breakout SVGs
+      - name: Commit and force-push SVGs to target branch
         run: |
-          git add images/breakout-light.svg images/breakout-dark.svg
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: update breakout SVGs [automated]"
-            git push
-          fi
+          git checkout --orphan github-breakout
+          git rm -rf .
+          mkdir images
+          mv /tmp/breakout-images/* images/
+          git add images
+          git commit -m "chore: update GitHub breakout SVGs" || echo "No changes to commit"
+          git push --force origin github-breakout

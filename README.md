@@ -1,36 +1,30 @@
 <h1>Hi, I'm Oleksii Shcherbak 👋</h1>
 
 <p>
-  Software Engineering Master's student at Woolf GoIT Neoversity and professional handball player from Ukraine, living in Finland. Combining the discipline of athletics with the precision of software development.
-</p>
-
-<p>
-  Currently building my full-stack development skills, working with Python, modern web technologies, and data science tools.
+  Backend developer in progress — Master's student in Software Engineering (Woolf GoIT Neoversity), building production-ready APIs with Python. Based in Finland.
 </p>
 
 <hr/>
 
-<h3>🎯 Currently Learning</h3>
+<h3>🔧 Currently Building</h3>
 <p align="left">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" alt="HTML5" title="HTML5"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" alt="CSS3" title="CSS3"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript" title="JavaScript"/></a>
-  <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" height="40" alt="TypeScript" title="TypeScript"/></a>
-  <a href="https://react.dev/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="React" title="React"/></a>
+  <a href="https://www.python.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python" title="Python"/></a>
+  <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="40" height="40" alt="FastAPI" title="FastAPI"/></a>
+  <a href="https://www.postgresql.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL" title="PostgreSQL"/></a>
+  <a href="https://redis.io/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="40" height="40" alt="Redis" title="Redis"/></a>
+  <a href="https://www.docker.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" alt="Docker" title="Docker"/></a>
 </p>
 
 <h3>💻 Technologies & Tools</h3>
 <p align="left">
-  <a href="https://www.python.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python" title="Python"/></a>
+  <a href="https://www.sqlalchemy.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" width="40" height="40" alt="SQLAlchemy" title="SQLAlchemy"/></a>
+  <a href="https://docs.pydantic.dev/" target="_blank"><img src="https://cdn.simpleicons.org/pydantic" width="40" height="40" alt="Pydantic" title="Pydantic"/></a>
+  <a href="https://www.postman.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="40" height="40" alt="Postman" title="Postman"/></a>
   <a href="https://numpy.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40" height="40" alt="NumPy" title="NumPy"/></a>
   <a href="https://pandas.pydata.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="40" height="40" alt="Pandas" title="Pandas"/></a>
-  <a href="https://matplotlib.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="40" height="40" alt="Matplotlib" title="Matplotlib"/></a>
   <a href="https://git-scm.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git" title="Git"/></a>
   <a href="https://github.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GitHub" title="GitHub"/></a>
-  <a href="https://www.docker.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" alt="Docker" title="Docker"/></a>
-  <a href="https://www.postgresql.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL" title="PostgreSQL"/></a>
   <a href="https://www.jetbrains.com/pycharm/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" width="40" height="40" alt="PyCharm" title="PyCharm"/></a>
-  <a href="https://www.jetbrains.com/webstorm/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webstorm/webstorm-original.svg" width="40" height="40" alt="WebStorm" title="WebStorm"/></a>
   <a href="https://www.jetbrains.com/datagrip/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg" width="40" height="40" alt="DataGrip" title="DataGrip"/></a>
 </p>
 
@@ -48,12 +42,12 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="images/breakout-dark.svg"
+      srcset="https://raw.githubusercontent.com/oleksii-shcherbak/oleksii-shcherbak/github-breakout/images/breakout-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="images/breakout-light.svg"
+      srcset="https://raw.githubusercontent.com/oleksii-shcherbak/oleksii-shcherbak/github-breakout/images/breakout-light.svg"
     />
-    <img alt="Breakout Game" src="images/breakout-light.svg" />
+    <img alt="Breakout Game" src="https://raw.githubusercontent.com/oleksii-shcherbak/oleksii-shcherbak/github-breakout/images/breakout-light.svg" />
   </picture>
 </div>
