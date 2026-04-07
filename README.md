@@ -32,3 +32,7 @@ Backend developer in progress — Master's student in Software Engineering (Wool
 <a href="https://leetcode.com/u/oleksii-shcherbak/"><img src="https://raw.githubusercontent.com/oleksii-shcherbak/oleksii-shcherbak/main/assets/icons/leetcode.png" width="40" height="40" alt="LeetCode" title="LeetCode"/></a>
 <a href="mailto:oleksii_shcherbak@icloud.com"><img src="https://raw.githubusercontent.com/oleksii-shcherbak/oleksii-shcherbak/main/assets/icons/email.png" width="40" height="40" alt="Email" title="Email Me"/></a>
 
+
+<p align="center">
+  <img src="https://api.boot.dev/v1/users/public/9d41f766-d7c0-402a-b61c-fb0ec2a5bf98/thumbnail" >
+</p>
